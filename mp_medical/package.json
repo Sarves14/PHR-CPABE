@@ -1,0 +1,18 @@
+{
+  "name": "medical_plus_staff",
+  "version": "1.0.0",
+  "description": "medical staff's side for medical plus",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Saru Sarves",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

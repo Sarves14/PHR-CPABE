@@ -1,0 +1,20 @@
+{
+  "name": "patient_side_medical_plus",
+  "version": "1.0.0",
+  "description": "patient side for medical plus",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Saru Sarves",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "java": "^0.12.1",
+    "java-caller": "^2.2.4",
+    "nodemon": "^2.0.6"
+  }
+}
