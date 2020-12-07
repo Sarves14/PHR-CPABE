@@ -17,7 +17,7 @@ Securing patients health records in cloud using CP-ABE
    1.4 - Decryption  
         
        1.4.1 - Medical worker with some speciality(like nurse) enters the patient name.  
-       1.4.2 - Get the keys and perform attribute based(speciality) decryption and  
+       1.4.2 - He gets the keys, encrypted data and perform attribute(speciality) based decryption to  
        get the symmetric keys.  
        1.4.3 - Symmetric key decrytion is done and Medical worker gets the required   
        and authorized patient health record.  
@@ -26,7 +26,7 @@ Securing patients health records in cloud using CP-ABE
    
 2.Advantage of this implementation:    
      
-   2.1 - There are lot of chances that for the policies provided by the patients already  
+   2.1 - There are lot of chances for the policies provided by the patients, already  
    encryption is done so encryption time can be reduced if we reuse those encrypted values.  
     
    2.2 - Here a policy manager maintain the list of all the policies given by all users.  
@@ -46,8 +46,8 @@ Securing patients health records in cloud using CP-ABE
      
   3.1 - mp_patient        
       
-    3.1.1 - Run this moudle in a local machine.  
-    3.1.2 - It host a front end for patient side.  
+    3.1.1 - Run this moudle in a local machine.Run node app  
+    3.1.2 - It hosts a front end for patient side.  
     3.1.3 - Hit localhost:5000 in your browser.  
     3.1.4 - Divide the patient health record into classes of records(For eg. Details 
     related diabetes can form one file and Details related to neurological problems can form one file).  
@@ -60,7 +60,7 @@ Securing patients health records in cloud using CP-ABE
             
   3.2 mp_server  
                     
-    3.2.1 - Run this module in a cloud platform.For debugging purpose run this on local machine.port is 3000.  
+    3.2.1 - Run this module in a cloud platform.For debugging purpose run this on local machine.Port is 3000.  
     3.2.2 - Accepts the encrypted records from patient side and put that in mongodb databse.  
     3.2.3 - Policy manager maintains all the policies provided by all the patients.  
     3.2.4 - When medical worker request for particular patient returns the particular  
