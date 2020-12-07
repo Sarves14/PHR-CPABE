@@ -12,7 +12,7 @@ Securing patients health records in cloud using CP-ABE
        1.2.2 - Those symmetric keys are again encrypted using Cipher Text Policy Based Encryption(CP-ABE)   
        based on policy provided by patients.  
     
-   1.3 - All the keys are uploaded into cloud.  
+   1.3 - All the keys and encrypted data are uploaded into cloud.  
     
    1.4 - Decryption  
         
