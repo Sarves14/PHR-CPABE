@@ -52,8 +52,8 @@ Securing patients health records in cloud using CP-ABE
     3.1.4 - Divide the patient health record into classes of records(For eg. Details related diabetes can form one file  
     and Details related to neurological problems can form one file).  
     3.1.5 - Give the polciy for those each class.  
-    3.1.6 - Policy should be in this format "neurologist chiefdoctor 1of2"(medical worker should be either neurologist or chief 
-    doctor.'1'   
+    3.1.6 - Policy should be in this format "neurologist chiefdoctor 1of2"(medical worker should be either neurologist 
+    or chief doctor.'1'   
     represents the number of attribute he should satisfy '2' represents total number of attributes).  
     3.1.7 - Node local server will accept the request, call java for encryption, make server call  
     and store it in mongodb database mentioned in server.  
@@ -72,6 +72,6 @@ Securing patients health records in cloud using CP-ABE
     3.3.2 - It host a front end for medical worker side.  
     3.3.3 - Hit localhost:2000 in your browser.  
     3.3.4 - Give the medical worker name,his speciality,patient name.  
-    3.3.5 - Node local server will accept the request, make server call, get the patient decrypted data, call java for decryption.   
-    and display it in the medical worker front end.  
+    3.3.5 - Node local server will accept the request, make server call, get the patient decrypted data, 
+    call java for decryption and display it in the medical worker front end.  
   
