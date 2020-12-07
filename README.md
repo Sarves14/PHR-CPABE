@@ -42,7 +42,8 @@ provide policies for who can access which classes of those data.
       
   There are three modules   
      
-  3.1 - mp_patient  
+  3.1 - mp_patient    
+                   
     3.1.1 - Run this moudle in a local machine.  
     3.1.2 - It host a front end for patient side.  
     3.1.3 - Hit localhost:5000 in your browser.  
@@ -55,13 +56,15 @@ provide policies for who can access which classes of those data.
     and store it in mongodb database mentioned in server.  
             
   3.2 mp_server  
+                    
     3.2.1 - Run this module in a cloud platform.For debugging purpose run this on local machine.port is 3000.  
     3.2.2 - Accepts the encrypted records from patient side and put that in mongodb databse.  
     3.2.3 - Policy manager maintains all the policies provided by all the patients.  
     3.2.4 - When medical worker request for particular patient returns the particular  
     encrypted record.  
              
-  3.3. mp_medical    
+  3.3. mp_medical  
+                
     3.3.1 - Run this moudle in a local machine.  
     3.3.2 - It host a front end for medical worker side.  
     3.3.3 - Hit localhost:2000 in your browser.  
